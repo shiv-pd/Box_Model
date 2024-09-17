@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    background-color: aquamarine;
+    border: 30px solid black;
+    border-radius: 10px;
+     width: 50%;
+    height: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+}
+
+.text{
+    background-color: white;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.content{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 30px;
+    font-weight: 600;
+    height: 100vh;
+    width: 20%;
+   position: relative;
+   right: -6rem;
+   padding-left: 2rem;
+
+}
+.content-data1, .content-data2, .content-data3{
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+    width: 80%;
+}
+.content-data1:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.content-data2:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.content-data3:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.hover-effect1 {
+    background-color: blueviolet;
+}
+.hover-effect2 {
+    border: 60px solid black;
+}
