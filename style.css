@@ -44,6 +44,9 @@
    padding-left: 2rem;
 
 }
+.hover-text{
+    color:white;
+}
 .content-data1, .content-data2, .content-data3{
     background-color: white;
     border-radius: 10px;
